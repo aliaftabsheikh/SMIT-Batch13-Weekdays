@@ -1,0 +1,28 @@
+body{
+    background-color: black
+}
+
+p{
+
+    color: white !important;
+    font-size: 24px;
+    font-weight: bold;
+    /* font-style: italic; */
+    text-transform: capitalize;
+    text-decoration : underline;  
+    line-height: 40px;
+    /* letter-spacing: 5px; */
+    word-spacing: 120px;
+}
+
+/* li{
+    list-style: none;
+} */
+
+/* ul > li >a {
+    text-decoration: none; 
+
+} */
+
+
+
