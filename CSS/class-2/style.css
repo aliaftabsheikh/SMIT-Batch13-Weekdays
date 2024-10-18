@@ -1,0 +1,74 @@
+h1{
+    /* background-color: red;
+    text-align: justify;    */
+    /* text-align: justify, center, left, right;    */
+}   
+
+/* .vertical-align{
+    background-color: yellow;
+    text-align: justify;
+    width: 400px;
+    height: 600px;
+    vertical-align: middle;
+} */
+
+/* p{
+    background-color: black;
+    height: 100px;
+    text-shadow: -1px -2px 2px rgb(169, 169, 170);
+} */
+
+/* p > span{
+    background-color: green;
+} */
+
+
+/* p::first-letter{
+    color: green;    
+}
+
+p::first-line{
+    background-color: aqua;
+} */
+
+
+/* p > span{
+    background-color: red;
+    vertical-align: bottom;
+} */
+
+/* a:link {
+    text-decoration: none;
+    color: green;
+} */
+
+/* a:visited{
+    background-color: yellow;
+    color: yellow;
+} */
+
+a{
+    text-decoration: none;
+    transition: 0.3s ease all;
+
+}
+
+/* a:hover{
+    background-color: gray;
+    font-size: 24px;
+    text-decoration: underline;
+} */
+
+a:active{
+    background-color: yellow;
+    font-size: 24px;
+}
+input{
+    transition: 0.3s ease all;
+}
+
+input:focus{
+    outline: none;
+    border: 3px solid rgb(31, 190, 17);
+    transform: scale(1.1);
+}
