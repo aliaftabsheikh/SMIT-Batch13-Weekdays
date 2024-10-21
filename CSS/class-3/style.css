@@ -1,0 +1,11 @@
+
+div{
+    overflow-x: hidden ;
+}
+p{
+    width: 200%;
+    background-color: rgb(13, 14, 13);
+    padding: 12px;
+    /* overflow: hidden; */
+
+}
