@@ -1,0 +1,48 @@
+/* h1 {
+  background-color: red;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: rgb(226, 113, 113);
+    /* font-size: 80px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.img-container {
+  /* background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+
+  /* background-image: url('https://cdn.pixabay.com/photo/2024/03/04/16/44/barberry-8612696_640.jpg');
+  background-repeat: no-repeat; */
+  /* background-position: bottom left; */
+  /* background-position: 50% 50%; */
+  height: 100vh;
+  /* background-size: cover;
+  height: 100vh; */
+/* background-attachment: fixed; */
+  /* height: 100vh; */
+
+  background: url('https://cdn.pixabay.com/photo/2024/03/04/16/44/barberry-8612696_640.jpg') no-repeat right bottom;
+}
+
+p{
+    width: 700px;
+}
+
+.img-container img {
+  /* height: 200vh; */
+  /* display: block;
+    margin: 0px auto; */
+  /* display: grid;
+    place-items: center; */
+
+  /* object-fit: contain; */
+}
