@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+    position: relative;
+    text-align: center;
+    align-content: center;
+    background-color: blue;
+}
+
+p{
+    font-size: 80px;
+    /* color: white; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+   color: rgb(226, 226, 237);
+
+}
+
+/* @media (max-width: 900px){
+    .box{
+        width: 50%;
+        margin: 0px 60px;
+
+        background-color: green;
+    }
+
+    p{
+         
+        color: rgb(206, 47, 47);
+    }
+}
+
+@media (max-width: 600px) {
+    .box{
+        width: 90%;
+        margin: 0px 20px;
+        background-color: black;
+    }
+
+    p{
+         
+        color: white;
+    }
+}
+
+@media (max-width: 300px) {
+    .box{
+        width: 90%;
+        margin: 0px 20px;
+        background-color: rgb(238, 7, 7);
+    }
+
+    p{
+         
+        color: white;
+    }
+} */
+
+/* Mobile */
+@media (min-width: 400px){   
+    .box{
+
+        background-color: rgb(20, 240, 35);
+    }
+
+    p{
+         
+        color: black;
+    }
+}
+
+/* Tablet */
+@media (min-width: 800px){
+    .box{
+
+        background-color: rgb(240, 240, 20);
+    }
+
+    p{
+         
+        color: black;
+    }
+}
+
+/* PC/Laptop */
+@media (min-width: 1000px){
+    .box{
+
+        background-color: rgb(18, 239, 224);
+    }
+
+    p{
+         
+        color: black;
+    }
+}
+
+/* Other Screen  */
+
+@media (min-width: 1400px){
+    .box{
+
+        background-color: rgb(231, 166, 2);
+    }
+
+    p{
+         
+        color: black;
+    }
+}
