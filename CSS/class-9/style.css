@@ -1,33 +1,35 @@
-*{
-    margin: 0;
-    padding: 0;
-  
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background-color: black;
-    height: 100vh;
-    display: grid;
-    place-items: center;
+body {
+  background-color: black;
 }
 
-.box{
-    width: 300px;
-    height: 300px;
-    border: 2px solid white;
-    position: relative;
-    text-align: center;
-    align-content: center;
-    background-color: blue;
+.box-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
-p{
-    font-size: 80px;
-    /* color: white; */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-   color: rgb(226, 226, 237);
+.box {
+  width: 150px;
+  height: 150px;
+  border: 2px solid white;
+  text-align: center;
+  align-content: center;
+  background-color: blue;
+}
 
+p {
+  font-size: 80px;
+  /* color: white; */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  color: rgb(226, 226, 237);
 }
 
 /* @media (max-width: 900px){
@@ -71,54 +73,47 @@ p{
 } */
 
 /* Mobile */
-@media (min-width: 400px){   
-    .box{
+@media (max-width: 520px) {
+  .box-container {
+    flex-direction: column;
+  }
 
-        background-color: rgb(20, 240, 35);
-    }
-
-    p{
-         
-        color: black;
-    }
+  .box{
+    background-color: chocolate;
+    color: beige;
+  }
 }
 
 /* Tablet */
-@media (min-width: 800px){
-    .box{
+@media (min-width: 800px) {
+  .box {
+    background-color: rgb(240, 240, 20);
+  }
 
-        background-color: rgb(240, 240, 20);
-    }
-
-    p{
-         
-        color: black;
-    }
+  p {
+    color: black;
+  }
 }
 
 /* PC/Laptop */
-@media (min-width: 1000px){
-    .box{
+@media (min-width: 1000px) {
+  .box {
+    background-color: rgb(18, 239, 224);
+  }
 
-        background-color: rgb(18, 239, 224);
-    }
-
-    p{
-         
-        color: black;
-    }
+  p {
+    color: black;
+  }
 }
 
 /* Other Screen  */
 
-@media (min-width: 1400px){
-    .box{
+@media (min-width: 1400px) {
+  .box {
+    background-color: rgb(231, 166, 2);
+  }
 
-        background-color: rgb(231, 166, 2);
-    }
-
-    p{
-         
-        color: black;
-    }
+  p {
+    color: black;
+  }
 }
