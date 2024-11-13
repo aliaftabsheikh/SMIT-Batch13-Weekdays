@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly ;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.228);
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace
+    
+}
+.btn-1{
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    height: 60px;
+    border: 3px solid rgb(23, 30, 247);
+    border-radius: 10px;
+    box-shadow: -2px 5px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.btn-1::before{
+    content: '';
+    width: 10%;
+    height: 100%;
+    background-color: cyan;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; 
+    transition: 0.5s ease all   
+}
+
+.btn-1:hover::before{
+    width: 100%;
+}
