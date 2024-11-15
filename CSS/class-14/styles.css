@@ -14,7 +14,7 @@
 
 /* BUTTON_1 */
 
-/* .btn-1{
+.btn-1{
     width: 140px;
     height: 50px;
     font-size: 20px;
@@ -51,11 +51,11 @@
 
 .btn-1:hover::before{
     width: 100%;
-} */
+} 
 
 
 /* BUTTON_2 */
-/* 
+
 .btn-2{
     width: 140px;
     height: 50px;
@@ -111,12 +111,12 @@
  
 .btn-2:hover::after{
     width: 100%;
-}  */
+}  
 
 
 /* BUTTON_3 */
 
-/* .btn-3{
+ .btn-3{
     width: 140px;
     height: 50px;
     font-size: 20px;
@@ -171,12 +171,12 @@
  
 .btn-3:hover::after{
     height: 100%;
-} */
+} 
 
 
 
 /* BUTTON_4 */
-/* 
+
 .btn-4{
     width: 140px;
     height: 50px;
@@ -235,7 +235,7 @@
 .btn-4:hover::after{
     width: 100%;
     transform: translateX(50%) rotate(-180deg);
-}  */
+} 
 
 .box-container {
     height: 300vh;
